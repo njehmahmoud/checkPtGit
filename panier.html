@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Panier HTML5 + JavaScript</title>
+        <link rel="stylesheet" href="style.css" >
+        
+    </head>
+    <body>
+    <div id="articles">
+    <article class="product-info" id="1">
+            <div class="item-image">
+            <img class="product-image" src="https://fossil.scene7.com/is/image/FossilPartners/BQ2366_main?$sfcc_fos_small$" alt="Black Stainless Steel Watch" width="150px">
+            </div>
+            <div class="line-item-name">
+            <h2>Gold Stainless Steel Watch</h2>
+            </div> 
+            <div class="product-card-footer">
+                <p class="line-item-price-info">Each one</p>
+            <div class="price_info">
+            <div class="price" >
+            <span>
+                <span class="strike-through list">
+                    DT 
+                </span>
+                <span class="value">
+                    90.70
+                </span>
+                </span>
+          
+            <div class="quantity-form">
+                <label class="quantity-label">Qty</label>
+                <select class="quantity" onchange="myFunction()" >                 
+                <option selected="">0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                </select>
+            </div>
+            </div>
+            <div class="line-item-total-price">
+                     <p class="line-item-price-info">
+                      Total: DT
+                     </p>
+                     <div id="pricing1">90.70</div>
+            </div>
+            </div>
+            </div>
+        </article>
+        <article class="product-info" id="2">
+            <div class="item-image" >
+                <img class="product-image"  src="https://fossil.scene7.com/is/image/FossilPartners/FS5742_main?$sfcc_fos_small$" alt="Black Stainless Steel Watch" width="150px">
+                </div>
+            <div class="line-item-name">
+            <h2>Blue Stainless Steel Watch</h2>
+            </div> 
+            <div class="product-card-footer">
+                <p class="line-item-price-info">Each one</p>
+            <div class="price_info">
+            <div class="price" >
+            <span>
+            <span class="strike-through list">
+                DT 
+            </span>
+            <span class="value">
+                70.70
+            </span>
+            </span>
+          
+            <div class="quantity-form">
+                <label class="quantity-label">Qty</label>
+                <select class="quantity" onchange="myFunction()" >
+                <option selected="">0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                </select>
+            </div>
+            </div>
+            <div class="line-item-total-price">
+                     <p class="line-item-price-info">
+                        Total: DT
+                     </p>
+                     <div id="pricing2">70.70</div>
+            </div>
+            </div>
+            </div>
+        </article>
+    </div>
+    <div class="cart-totals-wrapper">
+    <h4 class="order-summary-title">ORDER SUMMARY</h4>
+    <div class="row">
+    <div class="col-8 total-label">
+    <p>Subtotal</p>
+    </div>
+    <div class="col-4">
+        <span>DT</span>
+    <p id="sub-total">0.00</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-8 total-label">
+    <p>Estimated Tax</p>
+    </div>
+    <div class="col-4">
+        <span>DT</span>
+    <p id="tax-total">0.00</p>
+    </div>
+    </div>
+    <div class="row grand-total-wrapper">
+    <div class="col-8">
+    <h4>ESTIMATED TOTAL</h4>
+    </div>
+    <div class="col-4">
+        <span>DT</span>
+    <p id="grand-total">0.00</p>
+    </div>
+    </div>
+    <div class="row cart-actions">
+    <div class="col-12 checkout-continue">
+    <div class="checkout-and-applepay row">
+    <a href="#" class="button">
+    BUY NOW
+    </a>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    <script src="panier.js"></script>
+
+    </body>
+    </html>
+    
