@@ -28,8 +28,13 @@ function myFunction(){
   
     document.getElementById("sub-total").innerHTML = getPrixPanierHt();
     document.getElementById("tax-total").innerHTML = getPrixPanierTax();
-    document.getElementById("grand-total").innerHTML = getPrixPanierTax()+getPrixPanierHt();
+    document.getElementById("grand-total").innerHTML = parseInt(getPrixPanierTax())+parseInt(getPrixPanierHt());
      return 0
+}
+function fonctionRemove(element){
+   let elem = this.querySelector("div")
+    elem.remove();
+    myFunction()
 }
 
 

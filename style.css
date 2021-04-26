@@ -16,8 +16,8 @@ body, .price_info {
 }
 .product-card-footer{
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .cart-totals-wrapper{
     justify-content: center;
@@ -33,7 +33,7 @@ body, .price_info {
 a.button{
     display:inline-block;
     padding:0.7em 1.7em;
-    margin:0 0.3em 0.3em 0;
+    margin:1em 0.3em 0.3em 0;
     border-radius:0.2em;
     box-sizing: border-box;
     text-decoration:none;
@@ -48,3 +48,15 @@ a.button{
     a.button7:active{
     box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
     }
+    button.btnRemove{
+        display:inline-block;
+        padding: 0.2em 2.5em;
+        margin:0em 0.3em 0.3em 0.5em;
+        border-radius:3em;
+        text-decoration:none;
+        font-weight:100;
+        color:#FFFFFF;
+        background-color:#3369ff;
+        text-align:center;
+        position:relative;
+        }
